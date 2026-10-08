@@ -6,7 +6,7 @@ import ClientLayout from "./components/ClientLayout"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://sebastianvalencia.info'),
+  metadataBase: new URL('https://sebastian-valencia.site'),
   title: "Sebastian Valencia",
   description: "DJ/Producer from Cali, Colombia. Genres: Progressive, melodic house, organico house, deep",
   keywords: ["Sebastian Valencia", "DJ", "Producer", "Electronic Music", "Artist", "Cali", "Colombia", "Progressive House", "Melodic House", "Deep House"],
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "es_ES",
-    url: "https://sebastianvalencia.info",
+    url: "https://sebastian-valencia.site",
     siteName: "Sebastian Valencia",
     title: "Sebastian Valencia - DJ/Producer",
     description: "DJ/Producer from Cali, Colombia. Genres: Progressive, melodic house, organico house, deep",

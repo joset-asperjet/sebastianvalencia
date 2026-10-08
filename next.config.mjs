@@ -19,8 +19,12 @@ const nextConfig = {
   },
   images: {
     unoptimized: true,
-    domains: ['sebastianvalencia.info', 'opengraph.b-cdn.net', 'i.ibb.co'],
+    domains: ['sebastian-valencia.site', 'sebastianvalencia.info', 'opengraph.b-cdn.net', 'i.ibb.co'],
     remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'sebastian-valencia.site',
+      },
       {
         protocol: 'https',
         hostname: 'sebastianvalencia.info',
