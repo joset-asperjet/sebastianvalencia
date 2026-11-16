@@ -48,21 +48,21 @@ export default function LatestRelease() {
           {/* Release Cover with Audio Player */}
           <div className="relative w-24 h-24 flex-shrink-0">
             <Image
-              src="https://geo-media.beatport.com/image_size/1400x1400/dbbaa186-7041-4dbf-aa1e-7f5fad20eb08.jpg"
-              alt="Holograph / Emptyless / Pretend - Single"
+              src="/images/graphic/previews/preview-tracks/Redspace, Diego Riga - phantom sun (sebastian valencia remix).webp"
+              alt="Phantom Sun (Sebastian Valencia Remix)"
               width={300}
               height={300}
               className="rounded-lg object-cover"
             />
             <audio
               ref={audioRef}
-              src="music/balaphonia.mp3"
+              src="/music/Redspace, Diego Riga - phantom sun (sebastian valencia remix).mp3"
               preload="none"
             />
             <button
               onClick={togglePlay}
               className="absolute inset-0 flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-white/50 rounded-lg group"
-              aria-label={isPlaying ? "Pause Holograph preview" : "Play Holograph preview"}
+              aria-label={isPlaying ? "Pause Phantom Sun preview" : "Play Phantom Sun preview"}
             >
               <div className="w-10 h-10 rounded-full bg-white/90 backdrop-blur-sm flex items-center justify-center transition-transform duration-200 group-hover:scale-110 shadow-lg">
                 {isPlaying ? (
@@ -79,14 +79,8 @@ export default function LatestRelease() {
 
           {/* Release Info */}
           <div className="flex-grow min-w-0">
-            <h3 className={`text-lg ${titulos.className} font-medium`}>Balaphonia</h3>
-            <p className={`text-sm ${textos.className} text-white/60`}>Sebastian Valencia, <br /> Kamilo Sanclemente • 2025</p>
-            {/* Beatport Hype Tag */}
-            <div className="mt-2">
-              <div className="bg-[#39C0DE] text-white text-xs font-bold py-1 px-3 rounded-none inline-flex items-center drop-shadow-lg">
-                <span>Top #1 on Beatport Organic House</span>
-              </div>
-            </div>
+            <h3 className={`text-lg ${titulos.className} font-medium`}>Phantom Sun</h3>
+            <p className={`text-sm ${textos.className} text-white/60`}>Redspace, Diego Riga <br /> (Sebastian Valencia Remix) • 2026</p>
           </div>
         </div>
 
@@ -95,7 +89,7 @@ export default function LatestRelease() {
           <Button
             variant="outline"
             className="bg-zinc-800/50 border-zinc-700 w-full text-white hover:text-white transition-all duration-300 hover:bg-gradient-to-r hover:from-[#FF9D3C]/10 hover:via-[#811DFF]/10 hover:to-[#8098FF]/10 hover:bg-[#2B2B2B]/80 hover:backdrop-blur-md hover:border-transparent hover:m-0"
-            onClick={() => window.open("https://open.spotify.com/intl-es/track/6VwDjSR9lmq9zqByiRczN5", "_blank")}
+            onClick={() => window.open("https://open.spotify.com/intl-es/album/3Nc8zAnXWQsFnvXPd8qyDB", "_blank")}
           >
             <svg viewBox="0 0 24 24" className="w-5 h-5 mr-2 fill-white">
               <path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.8-.179-.92-.601-.12-.418.18-.8.6-.92 4.56-1.021 8.52-.6 11.64 1.32.42.239.48.659.24 1.08zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.24 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z" />
@@ -105,7 +99,7 @@ export default function LatestRelease() {
           <Button
             variant="outline"
             className="bg-zinc-800/50 border-zinc-700 w-full text-white hover:text-white transition-all duration-300 hover:bg-gradient-to-r hover:from-[#FF9D3C]/10 hover:via-[#811DFF]/10 hover:to-[#8098FF]/10 hover:bg-[#2B2B2B]/80 hover:backdrop-blur-md hover:border-transparent hover:m-0"
-            onClick={() => window.open("https://music.apple.com/mx/song/balaphonia-extended-mix/1834143925", "_blank")}
+            onClick={() => window.open("https://music.apple.com/mx/song/phantom-sun-sebastian-valencia-remix/6789183666", "_blank")}
           >
             <svg viewBox="0 0 22.773 22.773" className="w-5 h-5 mr-2 fill-white">
               <g>
@@ -128,7 +122,7 @@ export default function LatestRelease() {
           <Button
             variant="outline"
             className="bg-zinc-800/50 border-zinc-700 w-full text-white hover:text-white transition-all duration-300 hover:bg-gradient-to-r hover:from-[#FF9D3C]/10 hover:via-[#811DFF]/10 hover:to-[#8098FF]/10 hover:bg-[#2B2B2B]/80 hover:backdrop-blur-md hover:border-transparent hover:m-0"
-            onClick={() => window.open("https://www.beatport.com/artist/sebastian-valencia-col/1129457", "_blank")}
+            onClick={() => window.open("https://www.deezer.com/mx/album/1026997352", "_blank")}
           >
             <MoreHorizontal className="w-5 h-5 mr-2" />
             More

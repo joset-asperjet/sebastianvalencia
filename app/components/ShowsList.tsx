@@ -15,7 +15,22 @@ interface Show {
 }
 
 const shows: Show[] = [
-    {
+  {
+    date: { month: "OCT", day: "09", year: "2026" },
+    venue: "Movani",
+    city: "Pereira",
+    country: "🇨🇴",
+    time: "20:00"
+  },
+  {
+    date: { month: "DIC", day: "27", year: "2025" },
+    venue: "Roy Rosenfeld",
+    city: "Cali",
+    country: "🇨🇴",
+    time: "22:00",
+    isInternational: true
+  },
+  {
     date: { month: "NOV", day: "02", year: "2025" },
     venue: "Sébastien Léger",
     city: "Cali",
