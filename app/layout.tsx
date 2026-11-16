@@ -26,9 +26,9 @@ export const metadata: Metadata = {
     title: "Sebastian Valencia - DJ/Producer",
     description: "DJ/Producer from Cali, Colombia. Genres: Progressive, melodic house, organico house, deep",
     images: [{
-      url: "https://i.ibb.co/hFtRDCwt/artistphoto.jpg",
-      width: 1200,
-      height: 1200,
+      url: "/images/og/profile-og.jpg",
+      width: 1400,
+      height: 1400,
       alt: "Sebastian Valencia - DJ/Producer"
     }]
   },
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     creator: "@joset_asperjet",
     title: "Sebastian Valencia - DJ/Producer",
     description: "DJ/Producer from Cali, Colombia. Genres: Progressive, melodic house, organico house, deep",
-    images: ["https://i.ibb.co/Kc6y9y3d/artistphoto.jpg"]
+    images: ["/images/og/profile-og.jpg"]
   },
   robots: {
     index: true,
